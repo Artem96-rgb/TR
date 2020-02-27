@@ -1,0 +1,42 @@
+/*
+FOR STARS
+.stars {
+    direction: rtl;
+}
+
+i {
+    color: red;
+}
+
+i:hover {
+    color: blue;
+}
+
+i:hover~i {
+    color: blue;
+} */
+
+/* FOR STARS2 */
+.stars2 {
+    direction: rtl;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input:checked+label {
+    color: red;
+}
+
+input:checked~label {
+    color: red;
+}
+
+input+label:hover {
+    color: blue;
+}
+
+label:hover~label {
+    color: blue;
+}
